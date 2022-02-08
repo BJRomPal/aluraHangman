@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+			<div class="container">
+				<h1 class="titulo">AHORCADO</h1>
+			</div>
+		</header>
+    <div style="text-align:center; margin: 50px 0px;">
+      <button class="btn" id="iniciar-juego">INICIAR JUEGO</button>
+      <button class="btn" id="reiniciar-juego" style= "text-align:center" onclick="location.reload()">REINICIAR JUEGO</button>
+    </div>
+    <div style="text-align:center">
+      <canvas class='canvas' width= "1100" height="500"></canvas>
+    </div>
+    <br>
+    <form id="form-letra">
+      <div style="text-align:center">
+        <label for="letra">Inserte una Letra:</label>
+        <input id="letra" class="campo-letra" maxlength="1" pattern="[A-Z]" type="text", required>
+        <button class="btn" id="probar-letra">PROBAR LETRA</button> 
+      </div>
+    </form>
+    <hr size="3" width="80%" align="center" color="lightgrey">
+    <section class="container">
+      <h2>Agregue una nueva Palabra al juego</h2>
+      <p id="requisitos-palabra">Las palabras deben tener entre 5 y 10 caracteres</p>
+      <p id="mensajes-errores"></p>
+      <form id='form-palabra'>
+        <div style="text-align:center">
+          <input class="text-input" type="text" id="nuevaPalabra" placeholder="Escriba una nueva palabra">
+          <button class="btn" id="nueva-palabra">AGREGAR PALABRA</button> 
+        </div>
+      </form>
+    </section>
+  
+    <script type="text/javascript" src="canvas.js"></script>
+    <script type="text/javascript" src="ahorcado.js"></script>
+    <script type="text/javascript" src="agregarPalabra.js"></script>
+    <footer>
+      <p id="desarrollado">&#169; 2022 Mariano Miró</p>
+    </footer>
+  </body>
+</html>

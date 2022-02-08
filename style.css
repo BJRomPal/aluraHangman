@@ -1,0 +1,116 @@
+
+.titulo {
+  padding: 15px;
+  width: 30vw;
+  margin: auto;
+
+}
+
+.btn {
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 0.5em;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 3px solid rgba(0, 0, 0, 0.534);
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5em;
+  width: 15%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inserte-letra{
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'sans-serif';
+  text-align: center;
+  text-shadow: 1ex;
+  color:darkblue;
+}
+
+label {
+  font-family: 'arial';
+  text-align: center;
+  font-weight: bold;
+  color:rgb(3, 3, 3);
+}
+
+
+.campo-letra {
+  border: 3px solid rgba(0, 0, 0, 0.534);
+  border-radius: 0.5em;
+  font-size: 36px;
+  font-family: 'sans-serif';
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  padding: 0.5em;
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.canvas {
+  background-color: rgb(230, 224, 224);
+  border-radius: 2em;
+  border: 6px solid rgba(0, 0, 0, 0.534);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mensajes-errores {
+	font-family: 'sans-serif';
+  text-align: center;
+  font-weight: bold;
+  color:red;
+}
+
+h2 {
+  font-family: 'sans-serif';
+  text-align: center;
+  font-weight: bold;
+  color:darkblue;
+}
+
+#requisitos-palabra {
+  font-family: 'sans-serif';
+  text-align: center;
+  font-weight: bold;
+  color:darkblue;
+}
+
+header{
+	background-color: rgb(108, 116, 155);
+	height: 3em;
+	color: #FFF;
+	margin-bottom: 1em;
+}
+
+header h1{
+	font-size: 2em;
+	text-align: center;
+}
+
+body{
+	background-color: rgb(196, 199, 218);
+}
+
+#desarrollado {
+  font-family: 'arial';
+  text-align: right;
+  font-weight: bold;
+  color:rgb(3, 3, 3);
+}
